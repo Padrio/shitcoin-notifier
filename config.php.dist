@@ -1,0 +1,19 @@
+<?php
+
+return [
+    'pushover' => [
+        'auth' => [
+            'user' => '',
+            'token' => '',
+        ],
+        'device' => 'iPhoneX', // null for all
+        'title' => 'Shitcoin Notifier',
+    ],
+    'matcher' => [
+        'matchBy' => 'id', // Enter 'id' if you know the ID, or 'name' if you only know the name
+        'city' => [
+            'name' => 'Wuppertal',
+            'id' => 290849,
+        ]
+    ]
+];
